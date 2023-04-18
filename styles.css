@@ -1,4 +1,42 @@
-.map {
+#map {
     height: 100%;
-    width: auto;
+    width: 100%;
+    position: absolute
+}
+
+#art {
+    left: 25%;
+    top: 76%;
+}
+
+#maths {
+    top: 83%;
+    left: 73%;
+}
+
+#science {
+    top: 90%;
+    left: 53%;
+}
+
+#toilets {
+    top: 17%;
+    left: 72%;
+}
+
+#pe {
+    top: 64%;
+    left: 33%;
+}
+
+#sport {
+    top: 67%;
+    left: 45%;
+}
+
+
+.pin {
+    position: absolute;
+    height: 40px;
+    z-index: 1;
 }
