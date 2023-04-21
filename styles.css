@@ -2,6 +2,13 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 3em;
     text-align: center;
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {transform: translateY(1em);}
+    50% {transform: translateY(0em);}
+    100% {transform: translateY(1em);}
 }
 
 p {
