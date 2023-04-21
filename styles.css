@@ -2,7 +2,6 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 3em;
     text-align: center;
-    animation: float 5s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -40,6 +39,7 @@ button {
     -o-transition: 100ms;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     cursor: pointer;
+    color: black;
 }
 
 button:hover {
