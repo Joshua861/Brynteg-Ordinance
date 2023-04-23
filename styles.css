@@ -16,6 +16,7 @@ p {
     right: 20%;
     position: relative;
     font-size: 1.5em;
+    word-wrap: normal;
 }
 
 button {
