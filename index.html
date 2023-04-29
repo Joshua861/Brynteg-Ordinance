@@ -13,10 +13,19 @@
      crossorigin=""></script>
      <style>
         #map { height: 100%; }
-        img {
-          height: 500px;
-          width: 500px
+        @media only screen and (max-width: 1000px) {
+          img {
+            height: 250px;
+            width: 250px;
+          }
         }
+        @media only screen and (min-width: 1000px) {
+          img {
+            height: 500px;
+            width: 500px
+          }
+        }
+
      </style>
 </head>
 <body>
