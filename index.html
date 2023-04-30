@@ -1,17 +1,18 @@
 <html lang="en">
-<head>
+  <head>
     <link rel="icon" href="icon.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ordinance</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-     crossorigin=""/>
-     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-     crossorigin=""></script>
-     <style>
+    <link rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""></script>
+    <style>
         #map { height: 100%; }
         @media only screen and (max-width: 1000px) {
           img {
@@ -27,8 +28,8 @@
         }
 
      </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="map"></div>
     <script>
         var map = L.map('map').setView([51.49701, -3.58009], 19);
@@ -90,5 +91,5 @@
         var marker = L.marker([51.498, -3.57709]).addTo(map);
         marker.bindPopup("<img src=\"pictures/Upper arch.png\">");
     </script>
-</body>
+  </body>
 </html>
